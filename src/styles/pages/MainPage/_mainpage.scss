@@ -1,0 +1,62 @@
+.body-container {
+    max-width: 800px;
+    margin: auto;
+}
+
+.image-gallery-slides {
+    position: relative;
+    overflow: hidden;
+}
+
+.image-gallery-image {
+    position: absolute;
+}
+
+.image-gallery-thumbnail-image {
+    height: 50px;
+}
+
+.image-gallery-slide-wrapper {
+    position: relative;
+    display: inline-block;
+}
+
+.image-gallery-thumbnails-wrapper {
+    display: inline-block;
+}
+
+.image-gallery-slides,
+.image-gallery-slide-wrapper,
+.image-gallery-image{
+    height: 500px;
+    width: 500px;
+}
+
+.image-gallery-button-nav {
+    background-color: black;
+    border: 2px solid white;
+    border-radius: 3px;
+    color: white;
+    font-size: 30px;
+    height: 50px;
+    opacity: 0.5;
+    position: absolute;
+    transition: 0.3s;
+    width: 30px;
+    z-index: 1;
+}
+
+.image-gallery-button-nav:hover {
+    cursor: pointer;
+    color: $logo-yellow;
+}
+
+
+.image-gallery-left-button,
+.image-gallery-right-button {
+    top: 50%;
+}
+
+.image-gallery-right-button {
+    right: 0;
+}

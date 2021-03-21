@@ -1,14 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './styles/styles.scss';
-import MainPage from './components/MainPage';
+import MainPage from './components/pages/MainPage/MainPage';
 import Header from './components/pages/header/Header';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
     <Header />
-    <MainPage />
+    <body className="body">
+      <MainPage />
+    </body>
   </React.StrictMode>,
   document.getElementById('root')
 );

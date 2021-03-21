@@ -1,6 +1,7 @@
 @import './base/base';
 @import './base/settings';
 @import './base/mixins';
-@import './pages/header/Modal.scss';
+@import './pages/header/_modal.scss';
 @import 'react-dropdown/style.css';
-@import './pages/header/Header.scss';
+@import './pages/header/_header.scss';
+@import './pages/MainPage/mainpage';
